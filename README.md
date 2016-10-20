@@ -1,10 +1,20 @@
 # HardTest
-An open source analog/mixed-signal test suite
+An open source analog/mixed-signal test suite.
 
 
 ## Concept
 We're building a Unified API for interacting with devices common when testing analog & mixed-signal systems. With a well-defined set of interfaces, it becomes possible to build truly reusable (and reproducable!) test methods, so you can spend more time on what's important: your hardware.
 
+
+
+## Installation
+1. Clone the repo to a convenient directory (ex. $ git clone git@github.com:johnlb/ht.git ~/Documents/MATLAB/ht)
+2. If it doesn't exist, create a file called "~/Documents/MATLAB/startup.m"
+3. Append the following line to the new "startup.m" file:
+
+addpath('path\to\ht\matlab')
+
+4. Restart Matlab. ht's packages should now be available.
 
 
 ## Contributing
