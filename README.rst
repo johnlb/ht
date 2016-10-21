@@ -3,6 +3,12 @@ HardTest
 An open source analog/mixed-signal test suite.
 
 
+* Free: MIT License
+* Developed on Matlab R2015a
+* Latest Documentation: http://hardtest.readthedocs.io/
+* Source Code and Bug Tracker: https://github.com/johnlb/ht/
+
+
 Concept
 -------
 We're building a Unified API for interacting with devices common when testing analog & mixed-signal systems. With a well-defined set of interfaces, it becomes possible to build truly reusable (and reproducable!) test methods, so you can spend more time on what's important: your hardware.
