@@ -8,12 +8,12 @@ We're building a Unified API for interacting with devices common when testing an
 
 
 ## Installation
-1. Clone the repo to a convenient directory (ex. $ git clone git@github.com:johnlb/ht.git ~/Documents/MATLAB/ht)
-2. If it doesn't exist, create a file called "~/Documents/MATLAB/startup.m"
-3. Append the following line to the new "startup.m" file:
-
+1. Clone the repo to a convenient directory (ex. `$ git clone git@github.com:johnlb/ht.git ~/Documents/MATLAB/ht`)
+2. If it doesn't exist, create a file called `~/Documents/MATLAB/startup.m`
+3. Append the following line to `startup.m`:
+```
 addpath('path\to\ht\matlab')
-
+```
 4. Restart Matlab. ht's packages should now be available.
 
 
