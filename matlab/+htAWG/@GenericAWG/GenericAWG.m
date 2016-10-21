@@ -92,6 +92,10 @@ classdef GenericAWG < handle
             this.not_implemented('get_channel');
         end % get_channel
 
+        %% get_name: returns name of this instance.
+        function name = get_name(this)
+            name = inputname(1);
+        end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Non-Standard Interface.

@@ -46,9 +46,9 @@ issue trackers, chatrooms, and mailing lists.
 Contributing Code
 -----------------
 
-1. Fork the repo.
+1. Use Github to fork this repo.
 
-2. Make your change, with new passing tests. Follow the style of existing code.
+2. Make your change, adding any new tests. Follow the style of existing code.
 
 3. Commit and push to your fork. Write a [good commit message][commit]. 
 

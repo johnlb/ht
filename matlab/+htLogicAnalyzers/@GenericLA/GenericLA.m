@@ -53,6 +53,11 @@ classdef GenericLA < handle
         end
 
 
+        %% get_name: returns name of this instance.
+        function name = get_name(this)
+            name = inputname(1);
+        end
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Non-Standard Interface.

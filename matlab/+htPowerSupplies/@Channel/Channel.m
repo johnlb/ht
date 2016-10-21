@@ -60,6 +60,11 @@ classdef Channel < handle
             status = this.ps.channel_is_on(this.ch_name);
         end
 
+        %% get_name: returns name of this instance.
+        function name = get_name(this)
+            name = inputname(1);
+        end
+        
     end % methods
 
 

@@ -5,12 +5,12 @@ classdef GenericPS < handle
 %       durring e.g. 'clear all'
 
 
-    % properties
+    properties
 
     %     device
     %     channels
 
-    % end
+    end
 
     methods
 
@@ -95,6 +95,10 @@ classdef GenericPS < handle
             this.not_implemented('get_channel');
         end % get_channel
 
+        %% get_name: returns name of this instance.
+        function name = get_name(this)
+            name = inputname(1);
+        end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Non-Standard Interface.
