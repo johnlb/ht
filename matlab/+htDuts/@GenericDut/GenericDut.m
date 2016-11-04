@@ -9,9 +9,9 @@ classdef GenericDut < handle
     	supplies = {}
     end
 
-    % properties(Access=private)
+    properties(Access=protected)
         
-    % end
+    end
 
     methods
 
@@ -19,10 +19,10 @@ classdef GenericDut < handle
 % Class setup/teardown
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-        % % Constructor.
-        % function [this] = GenericDut()
-
-        % end
+        % Constructor.
+        function [this] = GenericDut(supplies)
+            this.supplies   = supplies;
+        end
 
         % % Destructor. Cleans up when class is destroyed.
         % function delete(this)
@@ -33,6 +33,11 @@ classdef GenericDut < handle
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Standard Interface.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        %% init: initialize the DUT
+        function init(this)
+            
+        end
 
 
 		%% power_consumption: measures the total power consumed by the DUT.
